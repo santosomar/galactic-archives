@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN chmod +x ./start.sh
 
 # Make port 80 available to the world outside this container
-EXPOSE 80
+EXPOSE 5000
 
 # Run start.sh when the container launches
 CMD ["./start.sh"]
