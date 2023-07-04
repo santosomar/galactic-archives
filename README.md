@@ -9,5 +9,5 @@ docker build -t galactic-archives .
 
 Then
 ```
-docker run -p 4000:80 galactic-archives
+docker run -p 4000:5000 galactic-archives
 ```
